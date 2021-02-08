@@ -17,7 +17,7 @@ int main(int argc, char* argv[]) {
             in=&file;
         }
         else{
-            cerr<<"File could not be opened"<<endl;
+            cerr<<"File could not be opened: "<<argv[1]<<endl;
             exit(1);
         }
     }
